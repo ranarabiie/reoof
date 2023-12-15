@@ -1,0 +1,410 @@
+*{
+
+    font-family: 'Cairo', sans-serif;
+        color:#000000;
+}
+
+
+nav{
+   font-size: 18px;
+}
+nav ul {
+background-color: #f0f1f300;
+	margin: 50;
+	list-style: none;
+	position: relative;
+	margin-top: -55px;
+	margin-right: -2px;
+
+}
+
+nav ul li {
+	background-color: hsla(0, 92%, 53%, 0);
+	
+}
+
+nav a {
+	padding: 0 12px;
+	color: rgb(0, 0, 0);
+	line-height: 10px;
+	text-decoration: none;
+margin-top:-55 px;
+margin-right: 375px;
+font-size: 18;
+
+}
+
+
+
+nav ul ul {
+	display: none;
+	position:fixed;
+	top: 50px;
+    right: 55; 	
+}
+
+nav ul li:hover > ul {
+	display: inherit;
+    background-color:#fafafa00;
+
+}
+
+nav ul li:hover > a {
+background-color: #fafafa00;
+	padding:-30px;
+    
+
+}
+
+#cho{
+	margin-top: 40px;
+    margin-right: 335px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+nav ul ul ul li {
+	position: relative;
+	left: 150px;
+    
+}
+
+
+
+.ac{
+margin-right: -250;
+margin-top: 50px;
+display: inline-block;
+
+}
+
+.n1{
+    margin-top: -7px;
+margin-right: -3px
+}
+
+
+.imglo{
+    display: inline-block;
+	position: relative;
+margin-right: 950px;
+margin-bottom: -30px;
+}
+.ma{
+	position: relative;
+margin-right: 1320px;
+margin-top:-45px ;
+}
+
+.logo{
+    margin-top: -20px;
+    margin-right: 100px;
+    display: inline;
+    width: 160px;
+    height: 160px;
+}
+
+#serch{
+    outline: none;
+    font-size: 18;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 650;
+    margin-top: -40px;
+display: inline;
+    height: 30px;
+    width: 388;
+box-shadow: 0px 0px 3px 0px  #00000049;
+border: 0;
+}
+
+#los{
+    position: relative;
+display: inline;
+    margin-right:998;
+    margin-top: -35px;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.acc{
+display: block;
+    margin-right: 1060px;
+    margin-top: -50px;
+}
+
+.cart{
+    display: block;
+
+    margin-right: 1120px;
+    margin-top: -42px;
+}
+
+a{
+    text-decoration: none solid rgb(23, 32, 38);
+    font-size: 13px;
+    display: inline;
+}
+.se1{
+    font-size: 20px;
+min-height: 10px;
+    letter-spacing: 0.32;
+    height: 50px;
+width: 1428.89px;
+border-top: 1px solid #F0F1F3;
+border-bottom: 1px solid #F0F1F3;
+padding: 5px 10px 5px 160px;
+word-spacing: 0px;
+display: inline;
+
+}
+.ao{ 
+font-size:25px;
+display: inline;
+margin-right: 130px;}
+.ziot{
+    display: inline;
+    margin-right: 45px;
+}
+.m3g{ display: inline;
+    margin-right: 45px;}
+.hearp{ display: inline;
+    margin-right: 45px;}
+.best{ display: inline;
+    margin-right: 45px; }
+.spec{ display: inline;
+    margin-right: 45px;}
+   .slider{
+
+margin-right:180px ;
+    width: 900px;
+    height: -2000;
+overflow: hidden;
+   }
+
+   .slider ul {
+padding:0 ;
+    list-style: none;
+    width: 1245px;
+position: relative;
+animation: sliding 8s infinite;
+   }
+
+   .slider ul li {
+    display: inline-block;
+    position: relative;
+   }
+
+ .ad1{
+    width: 1100px;
+    height: 500px;
+    margin-right: 1100px;
+ }
+ .ad2{
+    height: 500px;
+    width: 1100px;
+    margin-top: -500px;
+ }
+
+
+
+   @keyframes sliding{
+    0%{right:0}
+    50%{right: -2500px;}
+    50%{right: -1200px;}
+ 
+   }
+
+   .wom{
+width: 430px;
+height: 300px;
+    margin-right: 650px;
+   }
+
+   .man{
+    width: 450px;
+    height: 300px;
+    margin-right:180px;
+    margin-top: -299px;
+   }
+
+   h4{
+
+    font-size: 30px;
+    margin-right: 180px;
+    padding-bottom: 20px;
+   }
+
+   .kash{
+    padding-bottom: 10px;
+    margin-right: 230px;
+display: inline-block;
+    box-shadow: rgba(101, 104, 104, 0.301) 0px 2px 8px 0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px; 
+	border-bottom-right-radius:8px;
+   }
+
+   .kash2{
+    padding-bottom: 10px;
+    margin-right: 100px;
+display: inline-block;
+    box-shadow: rgba(101, 104, 104, 0.301) 0px 2px 8px 0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px; 
+	border-bottom-right-radius:8px;
+   }
+   .kash3{
+    padding-bottom: 10px;
+    margin-right: 100px;
+display: inline-block;
+    box-shadow: rgba(101, 104, 104, 0.301) 0px 2px 8px 0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px; 
+	border-bottom-right-radius:8px;
+   }
+
+   h6{
+    font-size: 21px;
+margin-right: 85px;
+    margin-top: -20px;
+   }
+.pri1{
+margin-top: -35px;
+    margin-right: 115px;
+}
+
+.bu1{ 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-right: 10px; 
+    padding-left: 15px; 
+    border: #817b7bb6;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px; 
+	border-bottom-right-radius:0px;
+margin-right: 100px;
+margin-top: -20px;
+background-color: #F0F1F3;
+font-size: 18;
+
+}
+
+.n2{
+    margin-right: 135px;
+    margin-bottom: 20px;
+}
+
+.pri2{
+    margin-right: 135px;
+}
+
+
+.n3{
+    margin-right: 120px;
+    margin-bottom: 20px;
+
+}
+
+.pri3{
+    margin-right: 120px;
+}
+
+footer{
+font-size: 19px;
+    background-color: #F0F1F3;
+
+}
+h2{
+    display: inline-block;
+}
+
+
+@media (max-width:1023px){
+
+.ser{
+    display: none;
+}
+.se1{
+    display: none;
+}
+.ac{
+    font-size: 25px;
+    margin-right: 270px;
+    margin-top: 53px;
+}
+#cho{
+    font-size: 25px;
+margin-right: 500px;
+position: absolute;
+margin-top: 70px;
+}
+
+nav a{
+
+    font-size: 25px;
+}
+nav li{
+    margin-top: 20px;
+}
+
+
+.logo{
+
+    width: 300px;
+    height: 300px;
+    margin-right: 400px;
+}
+.acc{
+margin-right: 840px;
+margin-top: -90px;
+}
+
+.cart{
+    margin-right: 900px;
+
+}
+
+.slider{
+    margin-right:-10px ;
+    width: 1100px;
+    height: 600px;
+}
+
+.ad1{
+    width: 1200px;
+    height: 500px;
+}
+.wom{
+    width: 520px;
+    height: 300px;
+        margin-right: 550px;
+       }
+    
+       .man{
+        width: 520px;
+        height: 300px;
+        margin-right:10px;
+        margin-top: -299px;
+       }
+
+    h4{
+margin-right: 50px;
+        font-size: 50px;
+    }
+
+
+
+    footer{
+ 
+        font-size: 25px;
+            background-color: #ffffff;
+        
+        }
+
+}
